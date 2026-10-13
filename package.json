@@ -1,0 +1,12 @@
+{
+  "name": "todo-app-vanila",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A deterministic vanilla JavaScript todo fixture with Playwright E2E coverage.",
+  "scripts": {
+    "test:e2e": "node node_modules/@playwright/test/cli.js test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.55.0"
+  }
+}
